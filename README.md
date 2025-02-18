@@ -1,4 +1,5 @@
-
+### Este es un aplicativo desarrollado en python que toma un modelo de machine learning para realizar la predicción del tamaño de la bota correcto, y se encuentra deployado en Streamlit.
+#### Los archivos necesarios para la implementación son:
 1.	El archivo de Python.py --> código fuente
 2.	El archivo de requirements.txt --> librerías
 3.	El archivo serializado .PKL --> modelo entrenado

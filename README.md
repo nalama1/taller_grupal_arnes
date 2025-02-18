@@ -1,3 +1,4 @@
+## Streamlit
 ### Este es un aplicativo desarrollado en python que toma un modelo de machine learning para realizar la predicción del tamaño de la bota correcto, y se encuentra deployado en Streamlit.
 #### Los archivos necesarios para la implementación son:
 1.	El archivo de Python.py --> código fuente
@@ -9,6 +10,7 @@
 ![image](https://github.com/user-attachments/assets/b813ff35-2a4d-4561-b2bb-153829dfa2a1)
 
 ### 2. Dentro de Streamlit, crear una app, Deploy y Paste GitHub URL
+#### URL pública: https://taller-grupal-arnes-v1.streamlit.app/
  
 ![Captura de pantalla 2025-02-18 011711](https://github.com/user-attachments/assets/40efaadf-5ada-4270-83a0-da2b9fb90e0e)
 

@@ -6,7 +6,7 @@ model_filename = 'arnes.pkl'
 loaded_model = joblib.load(model_filename) 
 
 st.title('Compra de Arneses y Botas para perros')
-st.header("Tienda Super Can ** ")
+st.header("Tienda Super Can 🐶 ")
 st.subheader("Ingrese los datos de su perro")
 
 
@@ -28,20 +28,13 @@ with st.form(key='perritos-pred-form'):
             st.error("Ingrese un número válido para el tamaño de la bota.")            
         
         if botas == predicted_boot_size:
-            st.success("¡Gran elección! Creemos que estas botas se adaptarán bien a su perro.")
+            st.success("¡Gran elección! 🐶🎉 Creemos que estas botas se adaptarán bien a su perro.", icon="✅")
         if botas > predicted_boot_size:
-            st.error("Las botas que has seleccionado podrían ser DEMASIADO GRANDES para un perro tan "\
-                       f" pequeño como el suyo. Recomendamos unas botas de tamaño {predicted_boot_size}")
+            st.error("⚠️ ¡Cuidado! 🐾 Las botas que has seleccionado podrían ser DEMASIADO GRANDES para un perro tan "\
+                       f" pequeño como el suyo. Recomendamos unas botas de tamaño {predicted_boot_size}", icon="⚠️")
         elif botas < predicted_boot_size:
-            st.warning("Las botas que has seleccionado podrían ser DEMASIADO PEQUEÑAS para un perro tan "\
-                       f" grande como el suyo. Recomendamos unas botas de tamaño {predicted_boot_size}")
+            st.warning("❌ Las botas que has seleccionado podrían ser DEMASIADO PEQUEÑAS para un perro tan "\
+                       f" grande como el suyo. Recomendamos unas botas de tamaño {predicted_boot_size} 🐕🔍")
                 
                 
-            
-
-        
-        
-        
-        
-        
-        
+ 

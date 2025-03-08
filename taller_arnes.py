@@ -8,14 +8,6 @@ loaded_model = joblib.load(model_filename)
 st.title('Compra de Arneses y Botas para perros')
 st.header("Tienda Super Can 🐶 ")
 st.subheader("Ingrese los datos de su perro")
-st.write("""
-             *******************************
-             
-             Autor:  Nalama1 
-             
-    **Repositorio:** [GitHub - grupo2](https://github.com/nalama1/taller_grupal_arnes)
-    """)
-
 
 with st.form(key='perritos-pred-form'):
     col1, col2 = st.columns(2)
@@ -43,5 +35,14 @@ with st.form(key='perritos-pred-form'):
             st.warning("❌ Las botas que has seleccionado podrían ser DEMASIADO PEQUEÑAS para un perro tan "\
                        f" grande como el suyo. Recomendamos unas botas de tamaño {predicted_boot_size} 🐕🔍")
                 
-                
+
+st.write("""
+             *******************************
+             
+             Autor:  Nalama1 
+             
+    **Repositorio:** [GitHub - grupo2](https://github.com/nalama1/taller_grupal_arnes)
+    """)
+
+
  
